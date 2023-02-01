@@ -41,7 +41,7 @@ springboot-crud-deployment-7f9bb7cfdb-xsmjz   1/1     Running   0             11
 Forwarding from 0.0.0.0:8080 -> 8989
 Handling connection for 8080
 </pre>
-<img src="https://github.com/Krreesh/springboot-crud-k8s/blob/main/spring_application.JPG">
+<img src="https://github.com/Krreesh/springboot-crud-k8s/blob/main/spring_application.JPG" alt="Spring Application">
 <h2>Minikube Dashboard</h2>
 <pre>
 [ec2-user@ip-172-31-85-97 ~]$ minikube dashboard
@@ -52,7 +52,7 @@ Handling connection for 8080
   http://127.0.0.1:37925/api/v1/namespaces/kubernetes-dashboard/services/http:kubernetes-dashboard:/proxy/
 </pre>
 <h2>Started kube proxy to view dashboard in browser</h2>
-<img src="https://github.com/Krreesh/springboot-crud-k8s/blob/main/k8s-dashboard.JPG">
+<img src="https://github.com/Krreesh/springboot-crud-k8s/blob/main/k8s-dashboard.JPG" alt="Kubernetes Dashboard">
 <pre>
 [ec2-user@ip-172-31-85-97 ~]$ k proxy --address=0.0.0.0 --accept-hosts '.*'
 Starting to serve on [::]:8001
